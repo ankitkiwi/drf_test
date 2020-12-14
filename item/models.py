@@ -12,4 +12,4 @@ class Item(DateModel, models.Model):
 
     def __str__(self):
         """String Representation of Item"""
-        return str(self.name)
+        return self.name
